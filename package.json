@@ -1,0 +1,25 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "crud api with express and mongodb",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon node --trace-warnings server.js"
+  },
+  "keywords": [],
+  "author": "Purushothaman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
